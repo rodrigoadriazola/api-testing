@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FactsValidation,,,,2022-01-21 20:44:37,2022-01-21 20:44:49,"11,693s",FAILED
+,,,,,,,
+Test Cases/AllRandomFacts/GetFactPropertyValueNode,,Verificar el elemento fact del tercer nodo.,,2022-01-21 20:44:38,2022-01-21 20:44:43,"5,252s",FAILED
+"response = sendRequest(findTestObject(""AllRandomFacts/GetFactPropertyValueNode""))",,,,2022-01-21 20:44:38,2022-01-21 20:44:43,"4,267s",PASSED
+"verifyElementPropertyValue(response, ""data[2].fact"", ""Cats walk on their toes."")",,,,2022-01-21 20:44:43,2022-01-21 20:44:43,"0,173s",FAILED
+,,,,,,,
+Test Cases/RandomFacts/GetFactLength,,Verificar el largo del hecho aleatorio sea 20  si se ingresa como parametro el numero 20,,2022-01-21 20:44:43,2022-01-21 20:44:44,"1,545s",PASSED
+"response = sendRequest(findTestObject(""RandomFacts/GetFactLength""))",,,,2022-01-21 20:44:43,2022-01-21 20:44:44,"0,792s",PASSED
+"verifyElementPropertyValue(response, ""length"", 20)",,,,2022-01-21 20:44:44,2022-01-21 20:44:44,"0,038s",PASSED
+,,,,,,,
+Test Cases/RandomFacts/GetResponseFact,,Validar los elementos fact y length que componen el API hecho aleatorio,,2022-01-21 20:44:44,2022-01-21 20:44:46,"1,405s",PASSED
+"response = sendRequest(findTestObject(""RandomFacts/GetResponseFact""))",,,,2022-01-21 20:44:45,2022-01-21 20:44:46,"0,828s",PASSED
+"verifyElementPropertyValue(response, ""fact"", ""Cats have 3 eyelids."")",,,,2022-01-21 20:44:46,2022-01-21 20:44:46,"0,040s",PASSED
+,,,,,,,
+Test Cases/RandomFacts/GetResponseNOFact,,Verificar la respuesta cuando el hecho aleatorio no se ha encontrado.,,2022-01-21 20:44:46,2022-01-21 20:44:47,"1,505s",PASSED
+"response = sendRequest(findTestObject(""RandomFacts/GetResponseNOFact""))",,,,2022-01-21 20:44:46,2022-01-21 20:44:47,"0,812s",PASSED
+"verifyResponseStatusCode(response, successCode)",,,,2022-01-21 20:44:47,2022-01-21 20:44:47,"0,026s",PASSED
+"verifyElementPropertyValue(response, ""fact"", null)",,,,2022-01-21 20:44:47,2022-01-21 20:44:47,"0,037s",PASSED
+,,,,,,,
+Test Cases/RandomFacts/GetResponseStatusOK,,Verificar la respuesta OK del hecho aleatorio cuando se ingresa como parametro un numero entero,,2022-01-21 20:44:47,2022-01-21 20:44:49,"1,374s",PASSED
+"response = sendRequest(findTestObject(""RandomFacts/GetResponseStatusOK""))",,,,2022-01-21 20:44:48,2022-01-21 20:44:49,"0,767s",PASSED
+"verifyResponseStatusCode(response, successCode)",,,,2022-01-21 20:44:49,2022-01-21 20:44:49,"0,005s",PASSED

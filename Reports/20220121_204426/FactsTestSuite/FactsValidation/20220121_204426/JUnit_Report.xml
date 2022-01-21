@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FactsValidation" time="11.693" tests="5" failures="1" errors="0">
+   <testsuite name="FactsValidation" tests="5" failures="1" errors="0" time="11.693" skipped="0" timestamp="2022-01-21 20:44:37" hostname="radriazola - NBX390-PC18XY58.copec.cl" id="Test Suites/FactsTestSuite/FactsValidation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\radriazola\\Katalon Studio\\API Testing\\Reports\\20220121_204426\\FactsTestSuite\\FactsValidation\\20220121_204426"/>
+         <property name="logFiles" value="C:\\Users\\radriazola\\Katalon Studio\\API Testing\\Reports\\20220121_204426\\FactsTestSuite\\FactsValidation\\20220121_204426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="radriazola - NBX390-PC18XY58.copec.cl"/>
+         <property name="hostAddress" value="192.168.1.86"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/AllRandomFacts/GetFactPropertyValueNode" time="5.252" classname="Test Cases/AllRandomFacts/GetFactPropertyValueNode" status="FAILED">
+         <failure type="FAILED" message="Test Cases/AllRandomFacts/GetFactPropertyValueNode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)
+"/>
+         <system-out><![CDATA[2022-01-21 20:44:38 - [TEST_CASE][FAILED] - Test Cases/AllRandomFacts/GetFactPropertyValueNode: Test Cases/AllRandomFacts/GetFactPropertyValueNode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)
+
+
+2022-01-21 20:44:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AllRandomFacts/GetFactPropertyValueNode")): Send request successfully
+
+2022-01-21 20:44:42 - [MESSAGE][INFO] - HAR: C:\Users\radriazola\Katalon Studio\API Testing\Reports\20220121_204426\FactsTestSuite\FactsValidation\20220121_204426\requests\main\0.har
+
+2022-01-21 20:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-21 20:44:43 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "data[2].fact", "Cats walk on their toes."): Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)
+)
+
+2022-01-21 20:44:43 - [MESSAGE][FAILED] - Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+
+2022-01-21 20:44:43 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-01-21 20:44:38 - [TEST_CASE][FAILED] - Test Cases/AllRandomFacts/GetFactPropertyValueNode: Test Cases/AllRandomFacts/GetFactPropertyValueNode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RandomFacts/GetFactLength" time="1.545" classname="Test Cases/RandomFacts/GetFactLength" status="PASSED">
+         <system-out><![CDATA[2022-01-21 20:44:43 - [TEST_CASE][PASSED] - Test Cases/RandomFacts/GetFactLength: Test Cases/RandomFacts/GetFactLength
+
+2022-01-21 20:44:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("RandomFacts/GetFactLength")): Send request successfully
+
+2022-01-21 20:44:44 - [MESSAGE][INFO] - HAR: C:\Users\radriazola\Katalon Studio\API Testing\Reports\20220121_204426\FactsTestSuite\FactsValidation\20220121_204426\requests\main\1.har
+
+2022-01-21 20:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-21 20:44:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "length", 20): Verify element property value successfully
+
+2022-01-21 20:44:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RandomFacts/GetResponseFact" time="1.405" classname="Test Cases/RandomFacts/GetResponseFact" status="PASSED">
+         <system-out><![CDATA[2022-01-21 20:44:44 - [TEST_CASE][PASSED] - Test Cases/RandomFacts/GetResponseFact: Test Cases/RandomFacts/GetResponseFact
+
+2022-01-21 20:44:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("RandomFacts/GetResponseFact")): Send request successfully
+
+2022-01-21 20:44:46 - [MESSAGE][INFO] - HAR: C:\Users\radriazola\Katalon Studio\API Testing\Reports\20220121_204426\FactsTestSuite\FactsValidation\20220121_204426\requests\main\2.har
+
+2022-01-21 20:44:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-21 20:44:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "fact", "Cats have 3 eyelids."): Verify element property value successfully
+
+2022-01-21 20:44:46 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RandomFacts/GetResponseNOFact" time="1.505" classname="Test Cases/RandomFacts/GetResponseNOFact" status="PASSED">
+         <system-out><![CDATA[2022-01-21 20:44:46 - [TEST_CASE][PASSED] - Test Cases/RandomFacts/GetResponseNOFact: Test Cases/RandomFacts/GetResponseNOFact
+
+2022-01-21 20:44:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("RandomFacts/GetResponseNOFact")): Send request successfully
+
+2022-01-21 20:44:47 - [MESSAGE][INFO] - HAR: C:\Users\radriazola\Katalon Studio\API Testing\Reports\20220121_204426\FactsTestSuite\FactsValidation\20220121_204426\requests\main\3.har
+
+2022-01-21 20:44:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-21 20:44:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, successCode): Verify response status code successfully
+
+2022-01-21 20:44:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-21 20:44:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "fact", null): Verify element property value successfully
+
+2022-01-21 20:44:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RandomFacts/GetResponseStatusOK" time="1.374" classname="Test Cases/RandomFacts/GetResponseStatusOK" status="PASSED">
+         <system-out><![CDATA[2022-01-21 20:44:47 - [TEST_CASE][PASSED] - Test Cases/RandomFacts/GetResponseStatusOK: Test Cases/RandomFacts/GetResponseStatusOK
+
+2022-01-21 20:44:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("RandomFacts/GetResponseStatusOK")): Send request successfully
+
+2022-01-21 20:44:49 - [MESSAGE][INFO] - HAR: C:\Users\radriazola\Katalon Studio\API Testing\Reports\20220121_204426\FactsTestSuite\FactsValidation\20220121_204426\requests\main\4.har
+
+2022-01-21 20:44:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-21 20:44:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, successCode): Verify response status code successfully
+
+2022-01-21 20:44:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-21 20:44:37 - [TEST_SUITE][FAILED] - FactsValidation: Test Cases/AllRandomFacts/GetFactPropertyValueNode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-01-21 20:44:37 - [TEST_SUITE][FAILED] - FactsValidation: Test Cases/AllRandomFacts/GetFactPropertyValueNode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Cats walk on their toes.' is not equal with actual property value 'Female cats are polyestrous'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at GetFactPropertyValueNode.run(GetFactPropertyValueNode:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642808666083.run(TempTestSuite1642808666083.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificar la respuesta cuando el hecho aleatorio no se ha encontrado.</description>
+   <name>GetResponseNOFact</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eda8b6d0-7749-470f-87fd-f696e47647e0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificar el largo del hecho aleatorio sea 20  si se ingresa como parametro el numero 20</description>
+   <name>GetFactLength</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>492f0720-c8ef-434e-8706-3861ab63b399</testCaseGuid>
+</TestCaseEntity>

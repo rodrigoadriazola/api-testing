@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificar la respuesta OK del hecho aleatorio cuando se ingresa como parametro un numero entero</description>
+   <name>GetResponseStatusOK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a899c6b-656f-48e9-8d51-ed7c15e259d5</testCaseGuid>
+</TestCaseEntity>

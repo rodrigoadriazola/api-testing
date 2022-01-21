@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validar los elementos fact y length que componen el API hecho aleatorio</description>
+   <name>GetResponseFact</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bea2cdc9-083b-4cfc-8717-05584392b341</testCaseGuid>
+</TestCaseEntity>

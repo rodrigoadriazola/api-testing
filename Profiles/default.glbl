@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Url Base</description>
+      <initValue>'https://catfact.ninja'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>successful operation</description>
+      <initValue>200</initValue>
+      <name>successCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Fact not found</description>
+      <initValue>404</initValue>
+      <name>errorCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Largo de la palabra</description>
+      <initValue>20</initValue>
+      <name>max_length</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Largo de la palabra</description>
+      <initValue>30</initValue>
+      <name>max_length_2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cantidad Maxima de resultados desplegados</description>
+      <initValue>3</initValue>
+      <name>limit</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
